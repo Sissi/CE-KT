@@ -13,5 +13,7 @@ public class DomainObject {
 		super();
 		this.id = id;
 	}
+	
+	public String id = UUID.randomUUID().toString()
 
 }
