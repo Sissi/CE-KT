@@ -29,7 +29,7 @@ public class DomainObject {
 		return comment;
 	}
 	
-	public String setComment(String comment){
+	public String setComment(final String comment){
 		this.comment = comment;
 	}
 	
@@ -37,7 +37,7 @@ public class DomainObject {
 		name;
 	}
 	
-	public String setName(String pname){
+	public String setName(final String pname){
 		this.name = pname;
 	}
 
