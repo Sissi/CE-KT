@@ -17,7 +17,6 @@ public class DomainObject {
 		this.id = id;
 	}
 	
-	public String id = UUID.randomUUID().toString()
 	public String getUuid() {
 		return uuid;
 	}
