@@ -20,5 +20,7 @@ public class DomainObject {
 	public String getUuid() {
 		return uuid;
 	}
+	
+	public String id = UUID.random().toString()
 
 }
