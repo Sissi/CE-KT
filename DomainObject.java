@@ -23,7 +23,11 @@ public class DomainObject {
 		return uuid;
 	}
 	
-	public String id = UUID.random().toString()
+	public String toString() { 
+		return "DomainObject [name=" + name + ", comment=" + comment + ", uuid=" + uuid + "]";
+	}
+
+	public String id = UUID.random().toString();
 	
 	public String getComment(){
 		return comment;
