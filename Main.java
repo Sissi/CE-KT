@@ -8,7 +8,7 @@ public class Main {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		Set<DomainObject> objectSet = new HashSet<DomainObject>();
+		Set<DomainObject> objectSet = new TreeSet<DomainObject>(new DomainObjectComparator());
 		objectSet.add(new DomainObject("Helga", "Kommentar1"));
 		objectSet.add(new DomainObject("Walter", "Kommentar2"));
 		objectSet.add(new DomainObject("Hans", "Kommentar3"));
